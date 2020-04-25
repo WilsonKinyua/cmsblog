@@ -1,0 +1,21 @@
+{
+    "name": "root/cms",
+    "require": {
+        "phpmailer/phpmailer": "^6.1"
+    },
+
+    "autoload": {
+        "classmap": [
+            "classes"
+        ]
+
+    },
+    "require-dev": {
+        "phpmailer/phpmailer": "^6.1"
+    },
+
+    "authors": [{
+        "name": "wilson kinyua",
+        "email": "wilsonkinyuam@gmail.com"
+    }]
+}
