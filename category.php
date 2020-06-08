@@ -34,7 +34,6 @@
                      }
                      $stm2 = mysqli_prepare($connection,"SELECT posts_id, posts_title,posts_author, posts_date, posts_image, posts_content FROM posts WHERE post_category_id = ? AND posts_status = ?" );
                         $published = 'published';
-
                        if(isset($stm1)){
                            mysqli_stmt_bind_param($stm1,'i',$post_category_id);
                            mysqli_stmt_execute($stm1);
